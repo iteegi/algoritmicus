@@ -13,6 +13,11 @@ Sample input: [12, 3, 1, 2, -6, 5, -8, 6], 0
 Sample output: [[-8, 2, 6], [-8, 3, 5], [-6, 1, 5]]
 
 
+#### Complexity Analysis
+
+- Time Complexity: **O(N^2)**
+- Space Complexity: **O(1)**
+
 
 #### Explanation
 
