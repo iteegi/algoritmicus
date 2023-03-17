@@ -18,5 +18,5 @@ We can use a Stack here
 
 #### Solution
 
-Check this [Python](../medium/5_smallest_difference.py) code.
+Check this [Python](../medium/smallest_difference.py) code.
 
