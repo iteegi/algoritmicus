@@ -1,17 +1,13 @@
-"""Validate subsequence
-
-Complexity Analysis
-    Time Complexity: O(N), where N is the length of the array.
-    Space Complexity: O(1).
+"""Validate subsequence.
 
 Two arrays with positive numbers are given.
-It is required to determine whether one array is a subsequence of the second one.
-A subsequence of an array is a set of numbers that are not necessarily adjacent
-in the array but that are in the same order as they appear in the array.
-For instance, the numbers [1,3,4] form a subsequence of the array [1,2,3,4],
-and so do the numbers [2,4]. Note that a single number in an array and the array
-itself are both valid subsequences of the array.( [1],[2],[3],[4] and [1,2,3,4] are
-all valid subsequences of [1,2,3,4] )
+It is required to determine whether one array is a subsequence of the second
+one.A subsequence of an array is a set of numbers that are not necessarily
+adjacent in the array but that are in the same order as they appear in the
+array. For instance, the numbers [1,3,4] form a subsequence of the array
+[1,2,3,4], and so do the numbers [2,4]. Note that a single number in an array
+and the array itself are both valid subsequences of the array. [1],[2],[3],[4]
+and [1,2,3,4] are all valid subsequences of [1,2,3,4] )
 
 """
 
@@ -20,7 +16,9 @@ from typing import List
 
 
 def validate_subsequence(array: List[int], sequence: List[int]) -> bool:
-    """Return True if the sequence is a subsequence of the array
+    """Return True if the sequence is a subsequence of the array.
+
+    O(n) time | O(1) space
 
     :param array: an array of integers
     :type array: List[int]
