@@ -31,5 +31,5 @@ Output: true
 
 #### Solution
 
-Check this [Python](../easy/1_validate_subsequence.py) code.
+Check this [Python](../easy/validate_subsequence.py) code.
 
