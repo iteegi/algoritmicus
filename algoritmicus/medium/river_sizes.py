@@ -1,4 +1,4 @@
-# The river sizes algorithm
+"""River sizes algorithm"""
 
 # You are given a two-dimensional array of potentially unequal height and
 # width. It contains only 0s and 1s. This array represents a map: 0s are land,
@@ -33,9 +33,10 @@ Visited_nodes = List[List[bool]]
 List_neighbors = List[List[int]]
 
 
-# O(wh) time | O(wh) space
 def river_sizes(matrix: Matrix) -> River_sizes:
     """Calculate river sizes.
+
+    O(wh) time | O(wh) space
 
     :param matrix: You are given a two-dimensional array of potentially
     unequal height and width. It contains only 0s and 1s. This array
