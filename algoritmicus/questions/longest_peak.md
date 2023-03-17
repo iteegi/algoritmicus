@@ -1,4 +1,4 @@
-## Longest Peak algorithm.longest_peak.py
+## Longest Peak algorithm
 
 #### Problem Statement
 
