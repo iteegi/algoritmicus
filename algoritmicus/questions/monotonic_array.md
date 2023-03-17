@@ -9,9 +9,8 @@ Since a <= b and b <= c implies a <= c, we only need to check adjacent elements 
 
 #### Complexity Analysis
 
-Time Complexity: O(N)
-
-Space Complexity: O(1)
+- Time Complexity: O(N)
+- Space Complexity: O(1)
 
 
 
