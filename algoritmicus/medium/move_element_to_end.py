@@ -9,6 +9,8 @@ Array = List[int]
 def move_element_to_end(array: Array, to_move: int) -> Array:
     """Move the given number to the end of the array.
 
+    O(N) time | O(1) space
+
     :param array: Array of integers.
     :type array: Array
     :param to_move: The number to be moved to the end of the array.
