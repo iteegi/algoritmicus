@@ -21,4 +21,4 @@ We can use a Stack here
 
 #### Solution
 
-Check this [Python](../medium/4_three_number_sum.py) code.
+Check this [Python](../medium/three_number_sum.py) code.
