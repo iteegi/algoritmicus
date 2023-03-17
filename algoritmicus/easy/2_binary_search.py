@@ -4,15 +4,17 @@
 from typing import List, Union
 
 
-# O(log(n)) time | O(1) space
 def binary_searcher(array: List[int], target: int) -> Union[int, bool]:
     """Binary search for a number in a sorted array
 
-    :param array: array of sorted numbers
+    O(log(n)) time | O(1) space
+
+    :param array: Array of sorted numbers.
     :type array: List[int]
-    :param target: the number to be found
+    :param target: The number to be found.
     :type target: int
-    :return: the position of the number in the array, or False if the number is not found
+    :return: The position of the number in the array, or False if the number
+    is not found.
     :rtype: Union[int, bool]
 
     """
