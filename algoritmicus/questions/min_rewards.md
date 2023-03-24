@@ -29,5 +29,5 @@ Output: [0, 0, 9, 0, 0]
 
 #### Solution
 
-Check this [Python](../medium/array_of_products.py) code.
+Check this [Python](../hard/min_rewards.py) code.
 
